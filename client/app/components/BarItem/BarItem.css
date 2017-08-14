@@ -1,0 +1,106 @@
+.barContainer {
+  display:            flex;
+  width:              820px;
+  height:             130px;
+  margin:             0px 10px;
+  -webkit-transition: margin 0.3s; /* Safari */
+  transition:         margin 0.3s;
+  -moz-transition:    margin 0.3s;
+  -o-transition:      margin 0.3s;
+  
+}
+
+.barContainer:hover {
+  margin:             0px 25px;
+}
+
+.barBorder {
+  display:            flex;
+  width:              800px;
+  height:             120px;
+  background-color:   white;
+  margin:             5px;
+  box-shadow:         0px 0px 2px #ccc;
+}
+
+.barImage{
+  width:              100px;
+  height:             100px;
+  margin:             10px;
+}
+
+
+.barAddress {
+  margin:             10px;
+  width:              300px;
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.barInfo {
+  margin:             10px;
+  width:              250px;
+}
+
+.barName {
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.barRating {
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.star {
+  width:              20px;
+  height:             20px;
+  position:           relative;
+  top:                3px;
+  left:               3px;
+}
+.goingContainer {
+  width:              80px;
+  margin-top:         4px;
+  display:            flex;
+  justify-content:    space-between;
+}
+
+.goingCount {
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.goingIndicator {
+  margin:             10px;
+}
+
+.text {
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.isGoing {
+  color:              white;
+  background-color:   #40698d;
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+  border-radius:      2px;
+  box-shadow:         0px 0px 2px;
+  width:              70px;
+  text-align:         center;
+}
+
+.isNotGoing {
+  color:              white;
+  background-color:   #e5e5e5;
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+  border-radius:      2px;
+  box-shadow:         0px 0px 2px;
+  width:              70px;
+  text-align:         center;
+
+}
+

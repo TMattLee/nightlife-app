@@ -1,0 +1,54 @@
+.itemContainer {
+  display:            flex;
+  width:              1200px;
+  margin:             20px auto 10px auto;
+}
+
+.containerCenter {
+  display:            flex;
+  flex-direction:     column;
+  flex:               5;
+  min-height:         800px;
+  margin-bottom:      50px;
+  margin-left:        20px;
+  border-radius:      2px;
+}
+
+.containerSide {
+  display:            flex;
+  flex-direction:     column;
+  flex:               1;
+  height:             800px;
+  border-radius:      2px;
+}
+
+.text {
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.modalClass {
+  display:            flex;
+  justify-content:    center;
+  align-items:        center;
+  height:             250px;
+  width:              250px;
+  margin:             auto;
+  background:         #fff;
+  overflow:           auto;
+  border-radius:      4px;
+  outline:            none;
+  background-color:   rgba(204, 195, 195, 0.0);
+}
+
+.modalOverlayClass {
+  position:           fixed;
+  top:                0;
+  left:               0;
+  right:              0;
+  bottom:             0;
+  display:            flex;
+  justify-content:    center;
+  align-items:        center;
+  background-color:   rgba(204, 195, 195, 0.30);
+}

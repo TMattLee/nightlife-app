@@ -1,0 +1,53 @@
+
+.headerContainer{
+  display:            flex;
+  justify-content:    space-around;
+  width:              100%;
+  margin:             0px 0px 10px 0px;
+  background-color:   #fff;
+  box-shadow:         0px 0px 2px;
+  position:           relative;
+  z-index:            100;
+  top:                0;
+  left:               0;
+  right:              0;
+  height:             40px;
+}
+
+.headerContent{
+  width:              790px;
+  margin:             12px auto;
+}
+
+.headerContentLeft{
+  float:              left;
+  display:            flex;
+}
+
+.headerContentRight{
+  float:              right;
+  display:            flex;
+}
+
+.tabStyle{
+  color:              #222;
+  text-decoration:    none;
+  text-transform:     uppercase;
+  margin:             0px 2px;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+  cursor:             pointer;
+}
+
+.fadedTabStyle{
+  color:              #ccc;
+  text-decoration:    none;
+  text-transform:     uppercase;
+  font-Family:        "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.twitterImg{
+  width:              14px;
+  height:             14px;
+  margin:             0px 5px;
+}
+  
